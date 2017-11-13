@@ -5,10 +5,12 @@
     android:orientation="vertical"
     android:weightSum="1">
     <EditText
+        android:hint="@string/EnterFirst"
         android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
+        android:hint="@string/EnterFirst"
         android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
