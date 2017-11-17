@@ -3,7 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:layout_margin="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
     <EditText
         android:hint="@string/EnterFirst"
         android:id="@+id/num1"
@@ -20,33 +28,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:layout_weight="0.07" />
+        android:layout_weight="0.07"
+        android:textSize="23sp"
+        />
 
     <Button
         android:onClick="plus"
         android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
         android:text="@string/plus" />
 
     <Button
         android:onClick="minus"
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
         android:text="@string/minus" />
 
     <Button
         android:onClick="mult"
         android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
         android:text="@string/mult" />
 
     <Button
         android:onClick="dev"
         android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
         android:text="@string/dev" />
+    </LinearLayout>
 </LinearLayout>

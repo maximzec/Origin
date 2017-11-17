@@ -3,4 +3,6 @@
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="EnterFirst">Enter the number</string>
+    <string name="mult">*</string>
+    <string name="dev">/</string>
 </resources>
